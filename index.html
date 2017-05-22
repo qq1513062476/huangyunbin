@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习1</title>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        .box{
+            width: 60px;
+            height: 60px;
+            background-color: red;
+            box-sizing: border-box;
+            padding-top: 60px;
+            float: left;
+            position: fixed;
+        }
+        .box:hover{
+            height: 500px;
+            transition: height 500ms ease-in 100ms;
+            
+        }
+        .left_nav{
+            opacity: 0;
+            list-style: none;
+            size: 10px;
+        }
+        .box:hover .left_nav{
+            opacity: 1;
+            transition: opacity 500ms ease-in 200ms;
+        }
+        .left_nav li{
+            text-align: center;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left_nav" id="left_nav">
+            <li>主页</li>
+            <li>案例</li>
+            <li>关于</li>
+            <li>联系</li>
+            <li>搞事</li>
+        </div>
+    </div>
+</body>
+</html>
