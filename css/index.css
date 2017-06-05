@@ -1,0 +1,84 @@
+		*{margin: 0px;padding: 0px;}
+		.kuang{
+			width: 1000px;
+			height: 535px;
+			background-color: #ffffff;
+			margin-left: 12%;/*居中*/
+			margin-top: 50px;
+			border: 2px solid black;
+			border-radius: 10px;
+			padding: 15px;
+			box-sizing:border-box;/*仅限于盒子模型边框不会溢出（溢出隐藏）*/
+			box-shadow: 8px 8px 5px rgba(0,0,0,0.5);/*阴影*/
+		}
+		.tab{
+			width: 946px;
+			height: 450px;
+		}
+		.nav{
+			width: 942px;
+			height: 350px;
+		}
+		.nav ul li{
+			margin-top: 50px; 
+			box-sizing:border-box;/*仅限于盒子模型边框不会溢出（溢出隐藏）*/
+			font-size: 20px;
+			text-align: center;
+			list-style: none;
+			width: 550px;
+			height: 70px;
+			background-color:#C0C0C0;
+			margin-left: 196px; 
+			border-radius:20px;
+		}
+		.nav ul{
+			width: 65px;
+		}
+		.nav ul li:hover{
+			background: white;
+		}
+		.nav ul li a:hover{text-align: center;color: #000;}/*a标签鼠标经过事件*/
+		.nav ul li a{
+			box-sizing: border-box;
+			padding-top: 15px;
+			text-align: center;
+			color: #FFF;/*字体颜色*/
+			text-decoration: none;/*字体样式（下划线...）*//*让链接字体为黑色并且没有下划线*/
+			color:white; 
+			text-align: center;
+			display: block;/*a标签以块状显示*/
+			width: 550px;
+			height: 70px;
+			border-radius: 20px;
+		}
+		.bottom{
+			border: 1px solid black;
+			border-radius: 20px;
+			height: 100px;
+		}
+		#jianjie{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: black;
+			width: 50px;
+			height: 50px;
+			border-radius: 20px;
+			box-shadow: 8px 8px 5px rgba(0,0,0,0.5);
+		}
+		#anli{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: black;
+			width: 50px;
+			height: 50px;
+		}
+		#bb{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: black;
+			width: 50px;
+			height: 50px;
+		}
